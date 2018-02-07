@@ -9,7 +9,7 @@ function init() {}
 
 function enable() {
     gesture.connect('activated', Lang.bind(this, function() {
-       	// close it.
+	//close window
 	global.display.focus_window.delete(global.get_current_time());
     }));
 
